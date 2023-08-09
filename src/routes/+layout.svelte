@@ -36,7 +36,7 @@
 				<hr class="my-4 border-white sm:hidden" />
 				<a class="rounded px-2 py-1 hover:bg-red-500" href="mailto:contact@devonmcclure.dev">Email</a>
 				<a class="rounded px-2 py-1 hover:bg-red-500" href="https://github.com/devonrmcclure">GitHub</a>
-				<a class="rounded px-2 py-1 hover:bg-red-500" href="https://www.linkedin.com/in/devon-r-mcclure"LinkedIn</a>
+				<a class="rounded px-2 py-1 hover:bg-red-500" href="https://www.linkedin.com/in/devon-r-mcclure">LinkedIn</a>
 			</div>
 		</div>
 	</div>
