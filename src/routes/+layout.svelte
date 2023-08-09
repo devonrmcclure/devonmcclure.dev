@@ -46,7 +46,7 @@
 	<slot />
 </main>
 
-<footer class="container mx-auto p-4 sm:px-0">Footer</footer>
+<footer class="container mx-auto flex justify-center p-4 text-green-500 sm:px-0">Devon McClure &copy; 2023</footer>
 
 <style lang="postcss">
 	:global(html) {
