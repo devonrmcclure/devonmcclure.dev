@@ -8,8 +8,8 @@
 			<a href="/" class="mr-0 text-2xl font-extrabold text-green-400 sm:mr-6">DM</a>
 			<span class="font-bold sm:hidden">Devon McClure</span>
 			<a class="hidden rounded px-2 py-1 hover:bg-red-500 sm:block" href="/">Home</a>
-			<a class="hidden rounded px-2 py-1 hover:bg-red-500 sm:block" href="/projects">Projects</a>
-			<a class="hidden rounded px-2 py-1 hover:bg-red-500 sm:block" href="/musings">Musings</a>
+			<!-- <a class="hidden rounded px-2 py-1 hover:bg-red-500 sm:block" href="/projects">Projects</a>
+			<a class="hidden rounded px-2 py-1 hover:bg-red-500 sm:block" href="/musings">Musings</a> -->
 			<button type="button" class="hover:text-red-500 sm:hidden">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -31,12 +31,12 @@
 		<div class="py-2 sm:flex sm:items-center sm:justify-between">
 			<div class="flex flex-col text-center sm:ml-6 sm:flex-row">
 				<a class="rounded px-2 py-1 hover:bg-red-500 sm:hidden" href="/">Home</a>
-				<a class="rounded px-2 py-1 hover:bg-red-500 sm:hidden" href="/projects">Projects</a>
-				<a class="rounded px-2 py-1 hover:bg-red-500 sm:hidden" href="/musings">Musings</a>
+				<!-- <a class="rounded px-2 py-1 hover:bg-red-500 sm:hidden" href="/projects">Projects</a>
+				<a class="rounded px-2 py-1 hover:bg-red-500 sm:hidden" href="/musings">Musings</a> -->
 				<hr class="my-4 border-white sm:hidden" />
 				<a class="rounded px-2 py-1 hover:bg-red-500" href="mailto:contact@devonmcclure.dev">Email</a>
 				<a class="rounded px-2 py-1 hover:bg-red-500" href="https://github.com/devonrmcclure">GitHub</a>
-				<a class="rounded px-2 py-1 hover:bg-red-500" href="#">LinkedIn</a>
+				<!-- <a class="rounded px-2 py-1 hover:bg-red-500" href="#">LinkedIn</a> -->
 			</div>
 		</div>
 	</div>
