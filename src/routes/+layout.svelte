@@ -1,5 +1,5 @@
 <script>
-	import '../app.css';
+	import "../app.css";
 </script>
 
 <nav class="mb-4 flex justify-between bg-blue-600 px-4 py-2 text-xl text-white sm:h-24">
@@ -7,10 +7,10 @@
 		<div class="flex items-center justify-between space-x-2">
 			<a href="/" class="mr-0 text-2xl font-extrabold text-green-400 sm:mr-6">DM</a>
 			<span class="font-bold sm:hidden">Devon McClure</span>
-			<a class="hidden rounded px-2 py-1 hover:bg-red-500 sm:block" href="/">Home</a>
-			<!-- <a class="hidden rounded px-2 py-1 hover:bg-red-500 sm:block" href="/projects">Projects</a>
-			<a class="hidden rounded px-2 py-1 hover:bg-red-500 sm:block" href="/musings">Musings</a> -->
-			<button type="button" class="hover:text-red-500 sm:hidden">
+			<a class="hidden rounded px-2 py-1 hover:bg-green-500 sm:block" href="/">Home</a>
+			<a class="hidden rounded px-2 py-1 hover:bg-green-500 sm:block" href="/projects">Projects</a>
+			<!-- <a class="hidden rounded px-2 py-1 hover:bg-red-500 sm:block" href="/musings">Musings</a> -->
+			<button type="button" class="hover:text-green-500 sm:hidden">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					fill="none"
@@ -30,13 +30,23 @@
 
 		<div class="py-2 sm:flex sm:items-center sm:justify-between">
 			<div class="flex flex-col text-center sm:ml-6 sm:flex-row">
-				<a class="rounded px-2 py-1 hover:bg-red-500 sm:hidden" href="/">Home</a>
-				<!-- <a class="rounded px-2 py-1 hover:bg-red-500 sm:hidden" href="/projects">Projects</a>
-				<a class="rounded px-2 py-1 hover:bg-red-500 sm:hidden" href="/musings">Musings</a> -->
+				<a class="rounded px-2 py-1 hover:bg-green-500 sm:hidden" href="/">Home</a>
+				<a class="rounded px-2 py-1 hover:bg-green-500 sm:hidden" href="/projects">Projects</a>
+				<!-- <a class="rounded px-2 py-1 hover:bg-red-500 sm:hidden" href="/musings">Musings</a> -->
 				<hr class="my-4 border-white sm:hidden" />
-				<a class="rounded px-2 py-1 hover:bg-red-500" href="mailto:contact@devonmcclure.dev">Email</a>
-				<a class="rounded px-2 py-1 hover:bg-red-500" href="https://github.com/devonrmcclure">GitHub</a>
-				<a class="rounded px-2 py-1 hover:bg-red-500" href="https://www.linkedin.com/in/devon-r-mcclure">LinkedIn</a>
+				<a class="rounded px-2 py-1 hover:bg-green-500" href="mailto:contact@devonmcclure.dev">Email</a>
+				<a
+					class="rounded px-2 py-1 hover:bg-green-500"
+					href="https://github.com/devonrmcclure"
+					target="_blank"
+					rel="noopener noreferrer">GitHub</a
+				>
+				<a
+					class="rounded px-2 py-1 hover:bg-green-500"
+					href="https://www.linkedin.com/in/devon-r-mcclure"
+					target="_blank"
+					rel="noopener noreferrer">LinkedIn</a
+				>
 			</div>
 		</div>
 	</div>
