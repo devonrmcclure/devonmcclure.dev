@@ -1,5 +1,10 @@
 <script>
+	import { page } from "$app/stores";
 	import "../app.css";
+
+	export let hidden = true;
+
+	$: $page.url && (hidden = true);
 </script>
 
 <nav class="mb-4 flex justify-between bg-blue-600 px-4 py-2 text-xl text-white sm:h-24">
@@ -10,7 +15,7 @@
 			<a class="hidden rounded px-2 py-1 hover:bg-green-500 sm:block" href="/">Home</a>
 			<a class="hidden rounded px-2 py-1 hover:bg-green-500 sm:block" href="/projects">Projects</a>
 			<!-- <a class="hidden rounded px-2 py-1 hover:bg-red-500 sm:block" href="/musings">Musings</a> -->
-			<button type="button" class="hover:text-green-500 sm:hidden">
+			<button type="button" class="hover:text-green-500 sm:hidden" on:click={() => (hidden = !hidden)}>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					fill="none"
@@ -28,7 +33,7 @@
 			</button>
 		</div>
 
-		<div class="py-2 sm:flex sm:items-center sm:justify-between">
+		<div class="hidden py-4 sm:flex sm:items-center sm:justify-between" class:hidden>
 			<div class="flex flex-col text-center sm:ml-6 sm:flex-row">
 				<a class="rounded px-2 py-1 hover:bg-green-500 sm:hidden" href="/">Home</a>
 				<a class="rounded px-2 py-1 hover:bg-green-500 sm:hidden" href="/projects">Projects</a>

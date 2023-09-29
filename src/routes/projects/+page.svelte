@@ -94,16 +94,9 @@
 				<h3 class="text-xl font-bold">Frontend Rewrite</h3>
 				<a
 					class=" text-green-400 hover:text-green-500"
-					href="https://github.com/phinocio/loadorderlibrary"
+					href="https://github.com/load-order-library/frontend"
 					target="_blank"
 					rel="noopener noreferrer">GitHub Repo</a
-				>
-				|
-				<a
-					class=" text-green-400 hover:text-green-500"
-					href="https://docs.loadorderlibrary.com"
-					target="_blank"
-					rel="noopener noreferrer">API Documentation</a
 				>
 				<p class="my-4">
 					Rewrite of the frontend to be Svelte. It was originally going to be React, but I decided to switch
