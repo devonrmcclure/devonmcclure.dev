@@ -8,7 +8,7 @@ RUN adduser -u $uid -D $user
 WORKDIR /app
 
 COPY package*.json /app/
-RUN npm ci --omit dev
+RUN npm ci
 
 COPY . .
 RUN npm run build
