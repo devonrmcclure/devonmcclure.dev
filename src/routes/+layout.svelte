@@ -33,7 +33,7 @@
 			</button>
 		</div>
 
-		<div class="hidden py-4 sm:flex sm:items-center sm:justify-between" class:hidden>
+		<div class="py-4 sm:flex sm:items-center sm:justify-between" class:hidden>
 			<div class="flex flex-col text-center sm:ml-6 sm:flex-row">
 				<a class="rounded px-2 py-1 hover:bg-green-500 sm:hidden" href="/">Home</a>
 				<a class="rounded px-2 py-1 hover:bg-green-500 sm:hidden" href="/projects">Projects</a>
