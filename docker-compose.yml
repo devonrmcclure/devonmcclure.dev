@@ -6,7 +6,7 @@ services:
             context: .
             args:
                 uid: 1000
-                gid: 2010
+                gid: 2200
             dockerfile: docker/dev/app/Dockerfile
             target: app-dev
         image: devon-portfolio:dev
