@@ -1,4 +1,4 @@
-# Dev build frontend
+# Dev build
 FROM node:20-alpine3.18 as app-dev
 
 WORKDIR /app

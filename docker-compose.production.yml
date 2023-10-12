@@ -1,12 +1,12 @@
 ---
-# Local Development docker-compose File.
+# Prod docker-compose File.
 services:
     app:
         build:
             context: .
             args:
-                uid: 1000
-                gid: 2010
+                uid: 2200
+                gid: 2200
             dockerfile: docker/prod/app/Dockerfile
             target: app-prod
         image: devon-portfolio:latest
